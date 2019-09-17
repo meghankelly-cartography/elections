@@ -20,20 +20,57 @@ Flexible across geographies
 Avoid 
 
 # steps for consideration
-###Context
-notes: Familiarized myself with California elections results with online research and talking with a friend. Visual imaginary paints California as predominantly blue. Blue coast, red inland. Counties are large and skew the visua
+### Goals
+	Flexible across geographies
+	Avoid visual bias based on the size of counties
+	Normalize data and possibly added additional dataset to contextualize. 
 
-###Projection
+### Context
+notes: Familiarized myself with California elections results with online research and talking with a friend. Visual imaginary paints California as predominantly blue. Blue coast, red inland. Counties are large and skew the visual. Consider proportional symbols, value-by-alpha, or cartogram to alleaviate visual bias.
+
+### Tools
+Build in D3 to enhance the flexibility of the visualization. 
+
+### Visualization
+
+The first two options explore the data as it was provide (raw count of votes by candidate per count).
+
+	option 1:
+	Proportional symbol with dropdown for candidate(raw count data necessitates proportional symbols)
+	Hover/onclick would give specific values for each county
+	Dropdown would allow easy transition between candidates
+
+	option 2:
+	Split proportional symbol
+	Show comparison between Trump/Clinton votes, immediate snapshot
+	Hover/onclick would give specific values for each county with each candiate
+	Option to add in additional candidates
+
+normalized data (votes per candidate as a percent of total votes)
+
+	option 3:
+	choropleth with dropdown showing normalized data
+	hover/onclick would give specific values for each county
+	downdown would allow easy transition between candidates
+
+	option 4:
+	"purple" choropleth with diverging color scheme demonstrating percent Trump/percent Clinton
+	hover/onclick would give specific values for each county
+	percent per candidate included Johnson and Stein
+	no dropbown
+
+
+	option 5:
+	value-by-alpha 
+	incorporates population density as second variable 
+	transparency shows population density, deemphasizes large rural counties
+
+
+### Projection
 notes: Customize equal-area projection for California geography or use equal-area projection for the US (Albers Equal Area Conic) and then recenter for each state.
 
-Generalization
+### Generalization
 notes: Balance detail. Might have to use 2+ vector layers for base map depending on zoom. Zoom should provide "more" information and detail in the map.
-
-###Visualization
-
-# goals
-Flexible across geographies
-Avoid 
 
 # visualization
 
