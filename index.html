@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+
+          <meta charset="utf-8">
+          <title>California 2016 election data</title>
+        
+          <!--main stylesheet-->
+          <link rel="stylesheet" href="css/style.css" />
+          <style>
+
+          </style>
+
+          <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+          <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+          <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+          <script src="http://d3js.org/topojson.v1.min.js"></script>
+          <script src="https://d3js.org/d3-scale.v3.min.js"></script>
+          <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+
+    </head>
+    
+
+
+    <body>
+      <div>
+          <h2>California 2016 Election Results</h2>
+
+      </div>
+
+      <div>
+
+          <input type="text" placeholder="Search by state.." name="search"><br><br>
+          <!-- dropdown -->
+           <button type="button" id="trump_color">Trump</button> 
+           <button type="button" id="clinton_color">Clinton</button> 
+           <button type="button" id="other_color">Stein</button> 
+           <button type="button" id="other_color">Johnson</button> 
+
+      </div>
+
+      <div id="map"></div>
+
+      <div>
+
+      <!-- checkbox to include/exclude downtown (if min or max) -->
+      <label><input type="checkbox" id = "downtown" value = "include" checked>Context Layers (e.g. cities)</label>
+
+      </div>
+
+
+      <script type="text/javascript" src="js/main.js"></script>
+
+
+    </body>
+</html>
