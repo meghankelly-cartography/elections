@@ -35,7 +35,7 @@ I did not stream in data for this assignment. All of my data methods would need 
 ### Additional Data
 	Voting turnout data–I'm particularly interested in groups that have *dropped* in turnout like black women who have had historically high turnout rates. 
 	First time voters
-	Census demographics (race, ethnicity, gender, age, education, income, etc.)
+	Census demographics (race, ethnicity, gender, age, education, income, etc.)—It'd be great to explore the intersections of demographic variables.
 	Rural, urban, suburban results
 
 
