@@ -14,9 +14,9 @@ notes: Vote *count* by county for 4 candidates. Data isn't normalized. Table als
 
 # Map Description
 ### Goals
-Flexible across geographies
-Avoid visual bias based on the size of counties
-Normalize data and possibly add additional dataset to contextualize. 
+	Flexible across geographies
+	Avoid visual bias based on the size of counties
+	Normalize data and possibly add additional dataset to contextualize. 
 
 ### Tools
 Built in D3 to enhance the flexibility of the visualization. 
@@ -33,10 +33,10 @@ I did not stream in data for this assignment. All of my data methods would need 
 
 
 ### Additional Data
-Voting turnout data–I'm particularly interested in groups that have *dropped* in turnout like black women who have had historically high turnout rates. 
-First time voters
-Census demographics (race, ethnicity, gender, age, education, income, etc.)
-Rural, urban, suburban results
+	Voting turnout data–I'm particularly interested in groups that have *dropped* in turnout like black women who have had historically high turnout rates. 
+	First time voters
+	Census demographics (race, ethnicity, gender, age, education, income, etc.)
+	Rural, urban, suburban results
 
 
 # Process
@@ -95,4 +95,4 @@ Mapping Data with D3 (MIT): http://duspviz.mit.edu/d3-workshop/mapping-data-with
 
 Making a Map of the US with D3, Topojson, and CSV (Jonathon Soma): https://www.youtube.com/watch?v=G-VggTK-Wlg
 
-Thansk!
+Thanks!
